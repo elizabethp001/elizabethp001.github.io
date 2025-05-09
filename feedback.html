@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+</head>
+<body>
+	<a href="index.html">Home</a> <a href="community.html">Community</a> <a href="gameshelf.html">Game Shelf</a> <a href="feedback.html">Feedback</a>
+
+    <form action="submit_form.php" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <label for="console">Which console is your main platform?</label>
+        <select id="console" name="console">
+            <option value="xbox">Xbox</option>
+            <option value="switch">Switch</option>
+            <option value="pc">PC</option>
+            <option value="playstation">Playstation</option>
+        </select><br><br>
+
+        <label>How long have you been playing video games?</label><br>
+        <input type="radio" id="0-2" name="gamingYears" value="0-2"> 0-2 years<br>
+        <input type="radio" id="2-4" name="gamingYears" value="2-4"> 2-4 years<br>
+        <input type="radio" id="4-6" name="gamingYears" value="4-6"> 4-6 years<br>
+        <input type="radio" id="6+" name="gamingYears" value="6+"> 6+ years<br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+	<h1> <img src="https://www.creativememories.com/media/wysiwyg/ThankYouForVisiting_Text_791x161.png" alt="Thank you for visitng" width="600" height="175"> </h1>
+
+    </form>
+</body>
+</html>
